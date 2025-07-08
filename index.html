@@ -1,1 +1,103 @@
-hello world
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>LLM & RAG Projects Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet"/>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #161b22;
+      padding: 2rem;
+      text-align: center;
+      border-bottom: 1px solid #30363d;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      color: #8b949e;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 3rem auto;
+      padding: 0 1rem;
+    }
+
+    .project {
+      background-color: #161b22;
+      border: 1px solid #30363d;
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      transition: transform 0.2s;
+    }
+
+    .project:hover {
+      transform: translateY(-3px);
+      border-color: #58a6ff;
+    }
+
+    .project h2 {
+      margin-top: 0;
+      color: #58a6ff;
+    }
+
+    .project p {
+      margin: 0.5rem 0 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #6e7681;
+      border-top: 1px solid #30363d;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>LLM Projects: RAG, Agents & Beyond</h1>
+    <p>Exploring the future of AI with Retrieval-Augmented Generation, Autonomous Agents, and Practical GenAI Apps</p>
+  </header>
+
+  <div class="container">
+
+    <div class="project">
+      <h2><a href="https://github.com/YOUR_USERNAME/rag-pdf-chat" target="_blank">🔍 RAG with PDF Chat</a></h2>
+      <p>A lightweight LangChain-powered app that allows users to chat with their PDFs using OpenAI or HuggingFace models. Uses FAISS for fast semantic search.</p>
+    </div>
+
+    <div class="project">
+      <h2><a href="https://github.com/YOUR_USERNAME/langgraph-agents" target="_blank">🤖 LangGraph Multi-Agent Workflow</a></h2>
+      <p>Multi-agent coordination using LangGraph. Features planning agents, retrievers, and tools interacting through a DAG-based flow.</p>
+    </div>
+
+    <div class="project">
+      <h2><a href="https://github.com/YOUR_USERNAME/rag-api-pipeline" target="_blank">⚙️ RAG API Pipeline</a></h2>
+      <p>Production-ready RAG backend with FastAPI, Pydantic, and vector DB integration (e.g., Weaviate or Chroma). Built for easy deployment.</p>
+    </div>
